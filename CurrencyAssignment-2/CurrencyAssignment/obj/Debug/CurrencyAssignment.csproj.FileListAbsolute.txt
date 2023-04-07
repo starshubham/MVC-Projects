@@ -1,0 +1,144 @@
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\CurrencyAssignment.dll.config
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\CurrencyAssignment.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\CurrencyAssignment.pdb
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\csc.exe
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\csc.exe.config
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\csc.rsp
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\csi.exe
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\csi.exe.config
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\csi.rsp
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.AppContext.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Collections.Immutable.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Console.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Globalization.Calendars.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.IO.Compression.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.IO.FileSystem.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Net.Http.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Net.Sockets.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.ValueTuple.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Xml.XPath.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\vbc.exe
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\vbc.exe.config
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\vbc.rsp
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\VBCSCompiler.exe
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\roslyn\VBCSCompiler.exe.config
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\Microsoft.Web.Infrastructure.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Helpers.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Mvc.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Razor.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Webpages.Deployment.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Webpages.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Webpages.Razor.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Razor.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Webpages.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Webpages.Deployment.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Webpages.Razor.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Helpers.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\System.Web.Mvc.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\obj\Debug\CurrencyAssignment.csprojAssemblyReference.cache
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\obj\Debug\CurrencyAssignment.csproj.CoreCompileInputs.cache
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\obj\Debug\CurrencyAssignment.csproj.CopyComplete
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\obj\Debug\CurrencyAssignment.dll
+C:\mvc\Assignments\CurrencyAssignment\CurrencyAssignment\obj\Debug\CurrencyAssignment.pdb
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\CurrencyAssignment.dll.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\CurrencyAssignment.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\CurrencyAssignment.pdb
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\csc.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\csc.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\csc.rsp
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\csi.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\csi.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\csi.rsp
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.AppContext.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Console.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.IO.Compression.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Net.Http.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Net.Sockets.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.ValueTuple.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Xml.XPath.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\vbc.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\vbc.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\vbc.rsp
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Helpers.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Mvc.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Razor.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Webpages.Deployment.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Webpages.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Webpages.Razor.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Razor.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Webpages.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Webpages.Deployment.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Webpages.Razor.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Helpers.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\System.Web.Mvc.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\obj\Debug\CurrencyAssignment.csproj.AssemblyReference.cache
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\obj\Debug\CurrencyAssignment.csproj.CoreCompileInputs.cache
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\obj\Debug\CurrencyAssignment.csproj.CopyComplete
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\obj\Debug\CurrencyAssignment.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\CurrencyAssignment-2\CurrencyAssignment\obj\Debug\CurrencyAssignment.pdb
