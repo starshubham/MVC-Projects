@@ -20,6 +20,7 @@
     <EntitySetMapping Name="Products">
       <EntityTypeMapping TypeName="EFDBFirstDatabaseModel.Product">
         <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
           <ScalarProperty Name="ProductID" ColumnName="ProductID" />
           <ScalarProperty Name="ProductName" ColumnName="ProductName" />
           <ScalarProperty Name="Price" ColumnName="Price" />

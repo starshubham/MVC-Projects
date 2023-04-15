@@ -69,7 +69,6 @@ C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EF
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\bin\System.Web.Helpers.xml
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\bin\System.Web.Mvc.xml
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.csproj.AssemblyReference.cache
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.csproj.CoreCompileInputs.cache
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.csproj.CopyComplete
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.dll

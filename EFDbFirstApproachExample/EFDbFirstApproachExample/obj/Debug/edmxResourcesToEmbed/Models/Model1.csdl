@@ -30,6 +30,7 @@
     <Property Name="Active" Type="Boolean" />
     <NavigationProperty Name="Brand" Relationship="Self.FK__Products__BrandI__29572725" FromRole="Products" ToRole="Brands" />
     <NavigationProperty Name="Category" Relationship="Self.FK__Products__Catego__286302EC" FromRole="Products" ToRole="Categories" />
+    <Property Name="Photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK__Products__BrandI__29572725">
     <End Role="Brands" Type="Self.Brand" Multiplicity="0..1" />
