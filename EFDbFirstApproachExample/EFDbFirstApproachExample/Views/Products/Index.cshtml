@@ -5,9 +5,9 @@
 }
 
 <h2>Products</h2>
-<form class="form-check-inline" action="/products/index">
+<form class="form-inline" action="/products/index">
     <label for="search" class="mr-1">Search</label>
-    <input type="search" class="form-control mr-1" id="search" name="search" placeholder="Search" value="@ViewBag.search"/>
+    <input type="search" class="mr-1" id="search" name="search" placeholder="Search" value="@ViewBag.search"/>
     <button type="submit" class="btn btn-primary">Go</button>
 </form>
 
@@ -21,6 +21,7 @@
         <th>CategoryID</th>
         <th>BrandID</th>
         <th>Active</th>
+        <th></th>
     </tr>
     @foreach (var item in Model)
     {
@@ -33,6 +34,9 @@
             <td>@item.CategoryID</td>
             <td>@item.BrandID</td>
             <td>@item.Active</td>
+            <td>
+                <a href="/products/details/@item.ProductID">Details</a>
+            </td>
         </tr>
     }
 </table>

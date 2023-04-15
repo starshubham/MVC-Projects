@@ -18,5 +18,12 @@ namespace EFDbFirstApproachExample.Controllers
             List<Product> products = db.Products.Where(temp => temp.ProductName.Contains(search)).ToList();
             return View(products);
         }
+
+        public ActionResult Details(long id)
+        {
+            EFDBFirstDatabaseEntities db = new EFDBFirstDatabaseEntities();
+            Product p = db.Products.Where(temp => temp.ProductID == id).FirstOrDefault();
+            return View(p);
+        }
     }
 }
