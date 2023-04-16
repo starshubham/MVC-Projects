@@ -45,3 +45,7 @@ go
 
 select * from Products
 go
+
+
+--- To Insert a new column 'Photo' in Products Table. Use this during storing images in database
+--Alter Table Products add Photo varchar(max)

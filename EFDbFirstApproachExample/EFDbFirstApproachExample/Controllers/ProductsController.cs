@@ -133,6 +133,15 @@ namespace EFDbFirstApproachExample.Controllers
             existingProduct.BrandID = p.BrandID;
             existingProduct.AvailabilityStatus = p.AvailabilityStatus;
             existingProduct.Active = p.Active;
+
+            if (Request.Files.Count >= 1)
+            {
+                var file = Request.Files[0];
+                var imgBytes = new byte[file.ContentLength];
+                file.InputStream.Read(imgBytes, 0, file.ContentLength);
+                var base64String = Convert.ToBase64String(imgBytes, 0, imgBytes.Length);
+                existingProduct.Photo = base64String;
+            }
             db.SaveChanges();
             return RedirectToAction("Index", "Products");
         }

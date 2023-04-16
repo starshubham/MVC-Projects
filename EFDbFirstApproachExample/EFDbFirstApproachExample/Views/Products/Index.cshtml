@@ -15,7 +15,7 @@
 
 <table class="table">
     <tr class="table-secondary">
-        <th style="width:15%">
+        <th style="width:10%">
             Photo
         </th>
         <th style="width:10%">
@@ -36,7 +36,7 @@
                 }
             }
         </th>
-        <th style="width:20%">
+        <th style="width:15%">
             @if (ViewBag.IconClass == "fa-sort-desc")
             {
                 <a href="/products/index?SortColumn=ProductName&IconClass=fa-sort-asc&PageNo=1">Product Name</a>
@@ -145,7 +145,7 @@
             }
         </th>
         <th style="width:5%">Active</th>
-        <th style="width:15%"></th>
+        <th style="width:10%"></th>
     </tr>
     @foreach (var item in Model)
     {

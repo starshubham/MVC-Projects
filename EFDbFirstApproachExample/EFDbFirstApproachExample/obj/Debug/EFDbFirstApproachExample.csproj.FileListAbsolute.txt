@@ -73,3 +73,4 @@ C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EF
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.csproj.CopyComplete
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.dll
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.pdb
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC_Projects\EFDbFirstApproachExample\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.csproj.AssemblyReference.cache
