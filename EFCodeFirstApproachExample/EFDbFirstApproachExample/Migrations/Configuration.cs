@@ -9,8 +9,7 @@ namespace EFDbFirstApproachExample.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            ContextKey = "EFDbFirstApproachExample.Models.CompanyDbContext";
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(EFDbFirstApproachExample.Models.CompanyDbContext context)
@@ -19,9 +18,9 @@ namespace EFDbFirstApproachExample.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
-            context.Brands.AddOrUpdate(new Models.Brand() { BrandID = 1, BrandName = "Sony" }, new Models.Brand() { BrandID = 2, BrandName = "Samsung" });
-            context.Categories.AddOrUpdate(new Models.Category() { CategoryID = 1, CategoryName = "Electronics" }, new Models.Category() { CategoryID = 2, CategoryName = "Home Appliances" });
-            context.Products.AddOrUpdate(new Models.Product() { ProductID = 1, ProductName = "Mouse", CategoryID=1, BrandID=1, Price=800, Active=true, AvailabilityStatus="InStock", DateOfPurchase=DateTime.Now });
+            context.Brands.AddOrUpdate(new Models.Brand() { BrandID = 1, BrandName = "Samsung" });
+            context.Categories.AddOrUpdate(new Models.Category() { CategoryID = 1, CategoryName = "Electronics" });
+            context.Products.AddOrUpdate(new Models.Product() { ProductID = 1, ProductName = "Samsung Galaxy Mobile", CategoryID = 1, BrandID = 1, Price = 10000,Photo=null, Active = true, AvailabilityStatus = "InStock", DOP = DateTime.Now });
         }
     }
 }

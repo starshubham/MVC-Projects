@@ -44,9 +44,9 @@ namespace EFDbFirstApproachExample.Controllers
             else if (ViewBag.SortColumn == "DateOfPurchase")
             {
                 if (ViewBag.IconClass == "fa-sort-asc")
-                    products = products.OrderBy(temp => temp.DateOfPurchase).ToList();
+                    products = products.OrderBy(temp => temp.DOP).ToList();
                 else
-                    products = products.OrderByDescending(temp => temp.DateOfPurchase).ToList();
+                    products = products.OrderByDescending(temp => temp.DOP).ToList();
             }
             else if (ViewBag.SortColumn == "AvailabilityStatus")
             {
@@ -130,7 +130,7 @@ namespace EFDbFirstApproachExample.Controllers
             Product existingProduct = db.Products.Where(temp => temp.ProductID == p.ProductID).FirstOrDefault();
             existingProduct.ProductName = p.ProductName;
             existingProduct.Price = p.Price;
-            existingProduct.DateOfPurchase = p.DateOfPurchase;
+            existingProduct.DOP = p.DOP;
             existingProduct.CategoryID = p.CategoryID;
             existingProduct.BrandID = p.BrandID;
             existingProduct.AvailabilityStatus = p.AvailabilityStatus;

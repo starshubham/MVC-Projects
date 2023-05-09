@@ -20,9 +20,9 @@
     <div class="form-row">
         @{
             string dop = "";
-            if (Model.DateOfPurchase.HasValue)
+            if (Model.DOP.HasValue)
             {
-                dop = Model.DateOfPurchase.Value.ToString("yyyy-MM-dd");
+                dop = Model.DOP.Value.ToString("yyyy-MM-dd");
             }
         }
         <div class="form-group col-md-6">
