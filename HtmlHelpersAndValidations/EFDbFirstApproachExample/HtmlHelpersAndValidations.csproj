@@ -144,6 +144,11 @@
     <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.6.0.min.map" />
     <None Include="Scripts\jquery-3.6.4.intellisense.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
@@ -234,21 +239,30 @@
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="CustomValidations\DivisibleBy10Attribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelpers\FileHelpers.cs" />
-    <Compile Include="Migrations\202305081142202_InitialData.cs" />
-    <Compile Include="Migrations\202305081142202_InitialData.Designer.cs">
-      <DependentUpon>202305081142202_InitialData.cs</DependentUpon>
+    <Compile Include="Migrations\202305111045205_Initial.cs" />
+    <Compile Include="Migrations\202305111045205_Initial.Designer.cs">
+      <DependentUpon>202305111045205_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202305081157398_QuantityColumn.cs" />
-    <Compile Include="Migrations\202305081157398_QuantityColumn.Designer.cs">
-      <DependentUpon>202305081157398_QuantityColumn.cs</DependentUpon>
+    <Compile Include="Migrations\202305111048293_removeValidation.cs" />
+    <Compile Include="Migrations\202305111048293_removeValidation.Designer.cs">
+      <DependentUpon>202305111048293_removeValidation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202305100539234_Third.cs" />
-    <Compile Include="Migrations\202305100539234_Third.Designer.cs">
-      <DependentUpon>202305100539234_Third.cs</DependentUpon>
+    <Compile Include="Migrations\202305111050007_AddMoreData.cs" />
+    <Compile Include="Migrations\202305111050007_AddMoreData.Designer.cs">
+      <DependentUpon>202305111050007_AddMoreData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305111214315_myValidation.cs" />
+    <Compile Include="Migrations\202305111214315_myValidation.Designer.cs">
+      <DependentUpon>202305111214315_myValidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305111218465_removeSomeValidations.cs" />
+    <Compile Include="Migrations\202305111218465_removeSomeValidations.Designer.cs">
+      <DependentUpon>202305111218465_removeSomeValidations.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
@@ -286,14 +300,20 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202305081142202_InitialData.resx">
-      <DependentUpon>202305081142202_InitialData.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305111045205_Initial.resx">
+      <DependentUpon>202305111045205_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305081157398_QuantityColumn.resx">
-      <DependentUpon>202305081157398_QuantityColumn.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305111048293_removeValidation.resx">
+      <DependentUpon>202305111048293_removeValidation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305100539234_Third.resx">
-      <DependentUpon>202305100539234_Third.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305111050007_AddMoreData.resx">
+      <DependentUpon>202305111050007_AddMoreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305111214315_myValidation.resx">
+      <DependentUpon>202305111214315_myValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305111218465_removeSomeValidations.resx">
+      <DependentUpon>202305111218465_removeSomeValidations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

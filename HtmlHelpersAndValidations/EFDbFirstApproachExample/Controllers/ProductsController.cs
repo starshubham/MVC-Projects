@@ -101,19 +101,50 @@ namespace EFDbFirstApproachExample.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(Product p)
+        public ActionResult Create([Bind(Include ="ProductID,ProductName,Price,DOP,AvailabilityStatus,CategoryID,BrandID,Active,Photo")]Product p)
         {
-            if(Request.Files.Count >= 1)
+            try
             {
-                var file = Request.Files[0];
-                var imgBytes = new Byte[file.ContentLength];
-                file.InputStream.Read(imgBytes, 0, file.ContentLength);
-                var base64String = Convert.ToBase64String(imgBytes, 0, imgBytes.Length);
-                p.Photo = base64String;
+                if (ModelState.IsValid)
+                {
+                    if (Request.Files.Count >= 1)
+                    {
+                        var file = Request.Files[0];
+                        var imgBytes = new Byte[file.ContentLength];
+                        file.InputStream.Read(imgBytes, 0, file.ContentLength);
+                        var base64String = Convert.ToBase64String(imgBytes, 0, imgBytes.Length);
+                        p.Photo = base64String;
+                    }
+                    db.Products.Add(p);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ViewBag.Categories = db.Categories.ToList();
+                    ViewBag.Brands = db.Brands.ToList();
+                    return View();
+                }
             }
-            db.Products.Add(p);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
+            {
+
+                Exception raise = dbEx;
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                        // raise a new exception nesting  
+                        // the current instance as InnerException  
+                        raise = new InvalidOperationException(message, raise);
+                    }
+                }
+                throw raise;
+            }
+            
         }
 
         public ActionResult Edit(long id)
