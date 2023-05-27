@@ -35,7 +35,7 @@ namespace EFDbFirstApproachExample.Controllers
                 {
                     Email = rvm.Email,
                     UserName = rvm.Username,
-                    PasswordHash = rvm.Password,
+                    PasswordHash = passwordHash,
                     City = rvm.City,
                     Country = rvm.Country,
                     Birthday = rvm.DateOfBirth,
@@ -61,6 +61,44 @@ namespace EFDbFirstApproachExample.Controllers
                 ModelState.AddModelError("My Error", "Invalid data");
                 return View();
             }
+        }
+
+        // GET: Account/Login
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        // POST: Account/Login
+        [HttpPost]
+        public ActionResult Login(LoginViewModel lvm)
+        {
+            //login
+            var appDbContext = new ApplicationDbContext();
+            var userStore = new ApplicationUserStore(appDbContext);
+            var userManager = new ApplicationUserManager(userStore);
+            var user = userManager.Find(lvm.Username, lvm.Password);
+            if(user != null)
+            {
+                //login
+                var authenticationManager = HttpContext.GetOwinContext().Authentication;
+                var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
+                authenticationManager.SignIn(new AuthenticationProperties(), userIdentity);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError("myerror", "Invalid username or password");
+                return View();
+            }
+        }
+
+        // GET: Account/Logout
+        public ActionResult Logout()
+        {
+            var authenticationManager = HttpContext.GetOwinContext().Authentication;
+            authenticationManager.SignOut();
+            return RedirectToAction("Index","Home");
         }
     }
 }

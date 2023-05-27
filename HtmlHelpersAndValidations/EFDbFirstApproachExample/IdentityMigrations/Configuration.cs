@@ -9,7 +9,7 @@ namespace EFDbFirstApproachExample.IdentityMigrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+            AutomaticMigrationsEnabled = false;
             MigrationsDirectory = @"IdentityMigrations";
         }
 

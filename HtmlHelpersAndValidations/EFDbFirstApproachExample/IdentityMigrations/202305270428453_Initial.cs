@@ -38,6 +38,7 @@ namespace EFDbFirstApproachExample.IdentityMigrations
                         Birthday = c.DateTime(),
                         Address = c.String(),
                         City = c.String(),
+                        Country = c.String(),
                         Email = c.String(maxLength: 256),
                         EmailConfirmed = c.Boolean(nullable: false),
                         PasswordHash = c.String(),

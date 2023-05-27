@@ -275,13 +275,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelpers\FileHelpers.cs" />
-    <Compile Include="IdentityMigrations\202305231624511_Initial.cs" />
-    <Compile Include="IdentityMigrations\202305231624511_Initial.Designer.cs">
-      <DependentUpon>202305231624511_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IdentityMigrations\202305231634126_CountryColumn.cs" />
-    <Compile Include="IdentityMigrations\202305231634126_CountryColumn.Designer.cs">
-      <DependentUpon>202305231634126_CountryColumn.cs</DependentUpon>
+    <Compile Include="IdentityMigrations\202305270428453_Initial.cs" />
+    <Compile Include="IdentityMigrations\202305270428453_Initial.Designer.cs">
+      <DependentUpon>202305270428453_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="IdentityMigrations\Configuration.cs" />
     <Compile Include="Identity\ApplicationDbContext.cs" />
@@ -315,6 +311,7 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -329,6 +326,7 @@
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Delete.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -347,11 +345,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="IdentityMigrations\202305231624511_Initial.resx">
-      <DependentUpon>202305231624511_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IdentityMigrations\202305231634126_CountryColumn.resx">
-      <DependentUpon>202305231634126_CountryColumn.cs</DependentUpon>
+    <EmbeddedResource Include="IdentityMigrations\202305270428453_Initial.resx">
+      <DependentUpon>202305270428453_Initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305111045205_Initial.resx">
       <DependentUpon>202305111045205_Initial.cs</DependentUpon>

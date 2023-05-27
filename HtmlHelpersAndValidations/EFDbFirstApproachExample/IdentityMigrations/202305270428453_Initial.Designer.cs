@@ -7,13 +7,13 @@ namespace EFDbFirstApproachExample.IdentityMigrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class CountryColumn : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CountryColumn));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "202305231634126_CountryColumn"; }
+            get { return "202305270428453_Initial"; }
         }
         
         string IMigrationMetadata.Source
