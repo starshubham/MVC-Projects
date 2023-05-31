@@ -84,7 +84,19 @@ namespace EFDbFirstApproachExample.Controllers
                 var authenticationManager = HttpContext.GetOwinContext().Authentication;
                 var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
                 authenticationManager.SignIn(new AuthenticationProperties(), userIdentity);
-                return RedirectToAction("Index", "Home");
+
+                if (userManager.IsInRole(user.Id,"Admin"))
+                {
+                    return RedirectToAction("Index", "Home", new { area = "Admin" });
+                }
+                else if (userManager.IsInRole(user.Id, "Manager"))
+                {
+                    return RedirectToAction("Index", "Home", new { area = "Manager" });
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
+                }
             }
             else
             {
@@ -99,6 +111,16 @@ namespace EFDbFirstApproachExample.Controllers
             var authenticationManager = HttpContext.GetOwinContext().Authentication;
             authenticationManager.SignOut();
             return RedirectToAction("Index","Home");
+        }
+
+        // GET: Account/MyProfile
+        public ActionResult MyProfile()
+        {
+            var appDbContext = new ApplicationDbContext();
+            var userStore = new ApplicationUserStore(appDbContext);
+            var userManager = new ApplicationUserManager(userStore);
+            ApplicationUser appUser = userManager.FindById(User.Identity.GetUserId());
+            return View(appUser);
         }
     }
 }

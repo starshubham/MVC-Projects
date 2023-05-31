@@ -100,3 +100,5 @@ C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\E
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.pdb
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.AssemblyReference.cache
 C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.IdentityMigrations.Initial.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.RemovingNullColumns.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.RemovingNullColumnFromActive.resources

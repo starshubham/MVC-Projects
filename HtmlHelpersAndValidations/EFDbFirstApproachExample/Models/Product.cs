@@ -21,11 +21,13 @@ namespace EFDbFirstApproachExample.Models
 
         [Display(Name = "Price")]
         [Required(ErrorMessage = "Price can't be blank")]
+        [Range(0,1000000,ErrorMessage = "Price should be in between 0 and 1000000")]
         [DivisibleBy10(ErrorMessage = "Price should be in multiples of 10")]
         public Nullable<decimal> Price { get; set; }
 
         [Column("DateOfPurchase", TypeName ="datetime")]
         [Display(Name = "Date of Purchase")]
+        [DisplayFormat(DataFormatString = "M/dd/yyyy",ApplyFormatInEditMode = true)]
         public Nullable<System.DateTime> DOP { get; set; }
 
         [Display(Name = "Availability Status")]
@@ -34,14 +36,14 @@ namespace EFDbFirstApproachExample.Models
 
         [Display(Name = "Category")]
         [Required(ErrorMessage = "Category can't be blank")]
-        public Nullable<long> CategoryID { get; set; }
+        public long CategoryID { get; set; }
 
         [Display(Name = "Brand")]
         [Required(ErrorMessage = "Brand can't be blank")]
-        public Nullable<long> BrandID { get; set; }
+        public long BrandID { get; set; }
 
         [Display(Name = "Active")]
-        public Nullable<bool> Active { get; set; }
+        public bool Active { get; set; }
 
         [Display(Name = "Photo")]
         public string Photo { get; set; }
