@@ -4,9 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using EFDbFirstApproachExample.Identity;
+using EFDbFirstApproachExample.Filters;
 
 namespace EFDbFirstApproachExample.Areas.Admin.Controllers
 {
+    [AdminAuthorizaton]
     public class UsersController : Controller
     {
         // GET: Admin/Users
