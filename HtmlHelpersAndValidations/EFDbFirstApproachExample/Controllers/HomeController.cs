@@ -11,6 +11,7 @@ namespace EFDbFirstApproachExample.Controllers
     {
         // GET: Home
         [MyActionFilter]
+        [MyResultFilter]
         public ActionResult Index()
         {
             return View();
