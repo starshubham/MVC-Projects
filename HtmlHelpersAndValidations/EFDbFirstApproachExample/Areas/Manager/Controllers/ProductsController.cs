@@ -103,6 +103,7 @@ namespace EFDbFirstApproachExample.Areas.Manager.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ProductID,ProductName,Price,DOP,AvailabilityStatus,CategoryID,BrandID,Active,Photo")] Product p)
         {
             try

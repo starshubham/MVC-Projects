@@ -12,8 +12,10 @@ namespace EFDbFirstApproachExample.Controllers
         // GET: Home
         [MyActionFilter]
         [MyResultFilter]
+        [OutputCache(Duration = 60)]
         public ActionResult Index()
         {
+            //throw new Exception("Some exception for testing purpose");
             return View();
         }
     }

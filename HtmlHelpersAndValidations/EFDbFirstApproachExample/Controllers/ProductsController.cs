@@ -14,12 +14,17 @@ namespace EFDbFirstApproachExample.Controllers
         [MyAuthenticationFilter]
         [CustomerAuthorization]
         [MyActionFilter]
-        [MyExceptionFilter]
         public ActionResult Index()
         {
             CompanyDbContext db = new CompanyDbContext();
             List<Product> products = db.Products.ToList();
             return View(products);
+        }
+
+        [ChildActionOnly]
+        public ActionResult DisplaySingleProduct(Product p)
+        {
+            return PartialView("MyProduct", p);
         }
     }
 }

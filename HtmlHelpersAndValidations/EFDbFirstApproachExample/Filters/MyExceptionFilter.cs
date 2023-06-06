@@ -15,8 +15,8 @@ namespace EFDbFirstApproachExample.Filters
             StreamWriter sw = File.AppendText(filterContext.RequestContext.HttpContext.Request.PhysicalApplicationPath + "\\ErrorLog.txt");
             sw.WriteLine(s);
             sw.Close();
-            filterContext.ExceptionHandled = true;
-            filterContext.Result = new RedirectResult("~/Error.html");
+            //filterContext.ExceptionHandled = true;
+            //filterContext.Result = new RedirectResult("~/Error.html");
         }
     }
 }
