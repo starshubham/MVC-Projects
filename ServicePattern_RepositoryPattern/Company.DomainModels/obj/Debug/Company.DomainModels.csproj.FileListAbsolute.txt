@@ -1,0 +1,12 @@
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\Company.DomainModels.dll.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\Company.DomainModels.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\Company.DomainModels.pdb
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\EntityFramework.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\EntityFramework.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\obj\Debug\Company.DomainModels.csproj.AssemblyReference.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\obj\Debug\Company.DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\obj\Debug\Company.DomainModels.csproj.CopyComplete
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\obj\Debug\Company.DomainModels.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DomainModels\obj\Debug\Company.DomainModels.pdb

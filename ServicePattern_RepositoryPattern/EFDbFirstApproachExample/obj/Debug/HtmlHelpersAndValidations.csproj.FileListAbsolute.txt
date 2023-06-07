@@ -1,0 +1,208 @@
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.Compression.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EFDbFirstApproachExample.dll.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EFDbFirstApproachExample.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EFDbFirstApproachExample.pdb
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csc.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csc.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csc.rsp
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csi.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csi.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csi.rsp
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.AppContext.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Console.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Net.Http.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Net.Sockets.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.ValueTuple.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.XPath.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\vbc.exe
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\vbc.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\vbc.rsp
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.SqlServer.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Newtonsoft.Json.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Owin.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Helpers.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Mvc.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Razor.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.SqlServer.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Newtonsoft.Json.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Razor.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Helpers.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Mvc.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.Initial.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.removeValidation.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.AddMoreData.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.myValidation.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.removeSomeValidations.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.GenerateResource.cache
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.CoreCompileInputs.cache
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.CopyComplete
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.dll
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.pdb
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.AssemblyReference.cache
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.IdentityMigrations.Initial.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.RemovingNullColumns.resources
+C:\Users\My Laptop\Desktop\MVC Tutorial\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.RemovingNullColumnFromActive.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EFDbFirstApproachExample.dll.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EFDbFirstApproachExample.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EFDbFirstApproachExample.pdb
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csc.exe
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csc.exe.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csc.rsp
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csi.exe
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csi.exe.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\csi.rsp
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.AppContext.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Console.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.Compression.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Net.Http.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.ValueTuple.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\vbc.exe
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\vbc.exe.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\vbc.rsp
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.SqlServer.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Newtonsoft.Json.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Owin.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Helpers.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Mvc.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Razor.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\EntityFramework.SqlServer.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Newtonsoft.Json.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Razor.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Helpers.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\System.Web.Mvc.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.AssemblyReference.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.IdentityMigrations.Initial.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.Initial.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.removeValidation.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.AddMoreData.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.myValidation.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.removeSomeValidations.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.RemovingNullColumns.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.Migrations.RemovingNullColumnFromActive.resources
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.GenerateResource.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.CoreCompileInputs.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\HtmlHelpersAndValidations.csproj.CopyComplete
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\HtmlHelpersAndValidations\EFDbFirstApproachExample\obj\Debug\EFDbFirstApproachExample.pdb

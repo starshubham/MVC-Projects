@@ -1,0 +1,9 @@
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.
+Login failed for user 'ssa'. Type:System.Data.SqlClient.SqlException, Source:.Net SqlClient Data Provider
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework

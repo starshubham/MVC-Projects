@@ -1,0 +1,30 @@
+﻿@model List<EFDbFirstApproachExample.Identity.ApplicationUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h2>Users</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Date of Birth</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.UserName</th>
+            <th>@item.Email</th>
+            <th>@item.PhoneNumber</th>
+            <th>@item.City</th>
+            <th>@item.Country</th>
+            <th>@item.Birthday</th>
+        </tr>
+    }
+</table>

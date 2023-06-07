@@ -1,0 +1,10 @@
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\bin\Debug\Company.ServiceContracts.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\bin\Debug\Company.ServiceContracts.pdb
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\bin\Debug\Company.DomainModels.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\bin\Debug\Company.DomainModels.pdb
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\bin\Debug\Company.DomainModels.dll.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.csproj.CopyComplete
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.pdb

@@ -1,0 +1,15 @@
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\Company.DataLayer.dll.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\Company.DataLayer.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\Company.DataLayer.pdb
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\Company.DomainModels.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\Company.DomainModels.pdb
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\Company.DomainModels.dll.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\obj\Debug\Company.DataLayer.csproj.AssemblyReference.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\obj\Debug\Company.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\obj\Debug\Company.DataLayer.csproj.CopyComplete
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\obj\Debug\Company.DataLayer.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\Company.DataLayer\obj\Debug\Company.DataLayer.pdb
