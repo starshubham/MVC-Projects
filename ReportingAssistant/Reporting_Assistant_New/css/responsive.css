@@ -1,0 +1,76 @@
+﻿/******************************************************Start Login Screen**************************************************/
+@media (max-width:360px) {
+}
+@media (max-width:480px) {
+.login-screen {
+    margin-top: 15px;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+}
+@media (min-width:361px) and (max-width:480px) { }
+@media (min-width:481px) and (max-width:767px) { }
+/******************************************************End Login Screen**************************************************/
+/******************************************************Start Dashboard**************************************************/
+.mobile-show{
+    display:none !important;
+}
+@media (max-width:767px) {
+.mobile-hide{
+    display:none;
+}
+.mobile-show{
+    display:block !important;
+}
+.logo-image > img {
+	width: 100%;
+	max-width: 260px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mobile-navbar-header{
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.navbar-top-links > li > a {
+	color: #fff;
+	padding:0px 8px;
+	line-height: 0px;
+	min-height: 0px;
+    font-size:18px;
+}
+.navbar-header .navbar-toggle {
+	margin-left: 10px;
+}
+.navbar-top-links {
+	margin-right: 15px;
+}
+.fix-header #page-wrapper {
+	margin-top: 120px;
+}
+.mobile-navbar-header a:hover, .mobile-navbar-header button:hover, .mobile-navbar-header a:focus, .mobile-navbar-header button:focus {
+    background-color:transparent !important;
+}
+.mobile-navbar-header .logo-image, .mobile-navbar-header .logo-image:hover, .mobile-navbar-header .logo-image:focus{
+    margin-bottom:20px;
+    background-color:#fff !important;
+}
+.mobile-navbar-nav {
+	margin: 0px 10px 0px 0px;
+	height: 300px;
+	overflow-y: auto;
+}
+.mobile-navbar-nav > li {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer {
+	left: 0;
+}
+
+}
+
+
+/******************************************************End Dashboard**************************************************/

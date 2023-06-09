@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62C41161-F22A-4BD0-B940-E8CEA16E81B5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reporting_Assistant_New</RootNamespace>
+    <AssemblyName>Reporting_Assistant_New</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GridMvc">
+      <HintPath>..\packages\Grid.Mvc.3.0.0\lib\net40\GridMvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.3\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.4.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-combobox.css" />
+    <Content Include="Content\bootstrap-toggle.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\dataTables.bootstrap.min.css" />
+    <Content Include="Content\Gridmvc.css" />
+    <Content Include="Content\jquery-ui-timepicker.css" />
+    <Content Include="Content\jquery-ui.css" />
+    <Content Include="Content\jquery.Jcrop.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\style-example.css" />
+    <Content Include="Content\style-Uplaod.css" />
+    <Content Include="Content\VisitorImage\344c5bc3-3a3a-4939-bda2-59e9b757a43c.jpg" />
+    <Content Include="Content\VisitorImage\6c12c01b-1eee-48ae-a66d-dee1a0d626e5.jpg" />
+    <Content Include="Content\VisitorImage\98cfba0e-7423-4302-a2a7-a9d94c14242b.jpg" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\colors\default.css" />
+    <Content Include="css\custamstyle.css" />
+    <Content Include="css\GridStyle.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\signature-pad.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\animate.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\colors\default.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\custamstyle.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\custom.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\customformStyle.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\main.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\materialize.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\materialize.min.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\menumaker.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\myCSS.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\myFormWithHeading.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\responsive.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\signature-pad.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\style.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\jquery-ui-1.8.19.custom.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\util.css" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\iconic\css\material-design-iconic-font.css" />
+    <Content Include="fonts\iconic\css\material-design-iconic-font.min.css" />
+    <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="JS\dataTables.bootstrap.min.js" />
+    <Content Include="JS\DeleteScript.js" />
+    <Content Include="JS\fusioncharts.charts.js" />
+    <Content Include="JS\fusioncharts.js" />
+    <Content Include="JS\fusioncharts.powercharts.js" />
+    <Content Include="JS\fusioncharts.theme.fint.js" />
+    <Content Include="JS\jquery.dataTables.min.js" />
+    <Content Include="JS\MyHeader.js" />
+    <Content Include="JS\MyTableStyle.js" />
+    <Content Include="JS\table2excel.js" />
+    <Content Include="JS\tiny_mce\langs\en.js" />
+    <Content Include="JS\tiny_mce\license.txt" />
+    <Content Include="JS\tiny_mce\plugins\advhr\css\advhr.css" />
+    <Content Include="JS\tiny_mce\plugins\advhr\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\advhr\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\advhr\js\rule.js" />
+    <Content Include="JS\tiny_mce\plugins\advhr\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\advhr\rule.htm" />
+    <Content Include="JS\tiny_mce\plugins\advimage\css\advimage.css" />
+    <Content Include="JS\tiny_mce\plugins\advimage\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\advimage\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\advimage\image.htm" />
+    <Content Include="JS\tiny_mce\plugins\advimage\img\sample.gif" />
+    <Content Include="JS\tiny_mce\plugins\advimage\js\image.js" />
+    <Content Include="JS\tiny_mce\plugins\advimage\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\advlink\css\advlink.css" />
+    <Content Include="JS\tiny_mce\plugins\advlink\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\advlink\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\advlink\js\advlink.js" />
+    <Content Include="JS\tiny_mce\plugins\advlink\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\advlink\link.htm" />
+    <Content Include="JS\tiny_mce\plugins\advlist\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\advlist\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\autoresize\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\autoresize\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\autosave\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\autosave\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\autosave\langs\en.js" />
+    <Content Include="JS\tiny_mce\plugins\bbcode\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\bbcode\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\contextmenu\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\contextmenu\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\directionality\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\directionality\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\emotions\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\emotions\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\emotions\emotions.htm" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-cool.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-cry.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-embarassed.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-foot-in-mouth.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-frown.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-innocent.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-kiss.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-laughing.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-money-mouth.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-sealed.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-smile.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-surprised.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-tongue-out.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-undecided.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-wink.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\img\smiley-yell.gif" />
+    <Content Include="JS\tiny_mce\plugins\emotions\js\emotions.js" />
+    <Content Include="JS\tiny_mce\plugins\emotions\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\example\dialog.htm" />
+    <Content Include="JS\tiny_mce\plugins\example\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\example\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\example\img\example.gif" />
+    <Content Include="JS\tiny_mce\plugins\example\js\dialog.js" />
+    <Content Include="JS\tiny_mce\plugins\example\langs\en.js" />
+    <Content Include="JS\tiny_mce\plugins\example\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\fullpage\css\fullpage.css" />
+    <Content Include="JS\tiny_mce\plugins\fullpage\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\fullpage\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\fullpage\fullpage.htm" />
+    <Content Include="JS\tiny_mce\plugins\fullpage\js\fullpage.js" />
+    <Content Include="JS\tiny_mce\plugins\fullpage\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\fullscreen\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\fullscreen\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\fullscreen\fullscreen.htm" />
+    <Content Include="JS\tiny_mce\plugins\iespell\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\iespell\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\alert.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\button.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\buttons.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\confirm.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\corners.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\horizontal.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\vertical.gif" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\skins\clearlooks2\window.css" />
+    <Content Include="JS\tiny_mce\plugins\inlinepopups\template.htm" />
+    <Content Include="JS\tiny_mce\plugins\insertdatetime\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\insertdatetime\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\layer\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\layer\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\legacyoutput\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\legacyoutput\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\media\css\content.css" />
+    <Content Include="JS\tiny_mce\plugins\media\css\media.css" />
+    <Content Include="JS\tiny_mce\plugins\media\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\media\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\media\img\flash.gif" />
+    <Content Include="JS\tiny_mce\plugins\media\img\flv_player.swf" />
+    <Content Include="JS\tiny_mce\plugins\media\img\quicktime.gif" />
+    <Content Include="JS\tiny_mce\plugins\media\img\realmedia.gif" />
+    <Content Include="JS\tiny_mce\plugins\media\img\shockwave.gif" />
+    <Content Include="JS\tiny_mce\plugins\media\img\trans.gif" />
+    <Content Include="JS\tiny_mce\plugins\media\img\windowsmedia.gif" />
+    <Content Include="JS\tiny_mce\plugins\media\js\embed.js" />
+    <Content Include="JS\tiny_mce\plugins\media\js\media.js" />
+    <Content Include="JS\tiny_mce\plugins\media\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\media\media.htm" />
+    <Content Include="JS\tiny_mce\plugins\nonbreaking\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\nonbreaking\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\noneditable\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\noneditable\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\pagebreak\css\content.css" />
+    <Content Include="JS\tiny_mce\plugins\pagebreak\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\pagebreak\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\pagebreak\img\pagebreak.gif" />
+    <Content Include="JS\tiny_mce\plugins\pagebreak\img\trans.gif" />
+    <Content Include="JS\tiny_mce\plugins\paste\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\paste\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\paste\js\pastetext.js" />
+    <Content Include="JS\tiny_mce\plugins\paste\js\pasteword.js" />
+    <Content Include="JS\tiny_mce\plugins\paste\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\paste\pastetext.htm" />
+    <Content Include="JS\tiny_mce\plugins\paste\pasteword.htm" />
+    <Content Include="JS\tiny_mce\plugins\preview\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\preview\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\preview\example.html" />
+    <Content Include="JS\tiny_mce\plugins\preview\jscripts\embed.js" />
+    <Content Include="JS\tiny_mce\plugins\preview\preview.html" />
+    <Content Include="JS\tiny_mce\plugins\print\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\print\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\save\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\save\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\searchreplace\css\searchreplace.css" />
+    <Content Include="JS\tiny_mce\plugins\searchreplace\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\searchreplace\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\searchreplace\js\searchreplace.js" />
+    <Content Include="JS\tiny_mce\plugins\searchreplace\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\searchreplace\searchreplace.htm" />
+    <Content Include="JS\tiny_mce\plugins\spellchecker\css\content.css" />
+    <Content Include="JS\tiny_mce\plugins\spellchecker\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\spellchecker\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\spellchecker\img\wline.gif" />
+    <Content Include="JS\tiny_mce\plugins\style\css\props.css" />
+    <Content Include="JS\tiny_mce\plugins\style\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\style\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\style\js\props.js" />
+    <Content Include="JS\tiny_mce\plugins\style\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\style\props.htm" />
+    <Content Include="JS\tiny_mce\plugins\tabfocus\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\tabfocus\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\table\cell.htm" />
+    <Content Include="JS\tiny_mce\plugins\table\css\cell.css" />
+    <Content Include="JS\tiny_mce\plugins\table\css\row.css" />
+    <Content Include="JS\tiny_mce\plugins\table\css\table.css" />
+    <Content Include="JS\tiny_mce\plugins\table\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\table\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\table\js\cell.js" />
+    <Content Include="JS\tiny_mce\plugins\table\js\merge_cells.js" />
+    <Content Include="JS\tiny_mce\plugins\table\js\row.js" />
+    <Content Include="JS\tiny_mce\plugins\table\js\table.js" />
+    <Content Include="JS\tiny_mce\plugins\table\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\table\merge_cells.htm" />
+    <Content Include="JS\tiny_mce\plugins\table\row.htm" />
+    <Content Include="JS\tiny_mce\plugins\table\table.htm" />
+    <Content Include="JS\tiny_mce\plugins\template\blank.htm" />
+    <Content Include="JS\tiny_mce\plugins\template\css\template.css" />
+    <Content Include="JS\tiny_mce\plugins\template\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\template\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\template\js\template.js" />
+    <Content Include="JS\tiny_mce\plugins\template\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\plugins\template\template.htm" />
+    <Content Include="JS\tiny_mce\plugins\visualchars\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\visualchars\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\wordcount\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\wordcount\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\abbr.htm" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\acronym.htm" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\attributes.htm" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\cite.htm" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\css\attributes.css" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\css\popup.css" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\del.htm" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\editor_plugin.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\editor_plugin_src.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\ins.htm" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\abbr.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\acronym.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\attributes.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\cite.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\del.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\element_common.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\js\ins.js" />
+    <Content Include="JS\tiny_mce\plugins\xhtmlxtras\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\about.htm" />
+    <Content Include="JS\tiny_mce\themes\advanced\anchor.htm" />
+    <Content Include="JS\tiny_mce\themes\advanced\charmap.htm" />
+    <Content Include="JS\tiny_mce\themes\advanced\color_picker.htm" />
+    <Content Include="JS\tiny_mce\themes\advanced\editor_template.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\editor_template_src.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\image.htm" />
+    <Content Include="JS\tiny_mce\themes\advanced\img\colorpicker.jpg" />
+    <Content Include="JS\tiny_mce\themes\advanced\img\icons.gif" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\about.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\anchor.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\charmap.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\color_picker.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\image.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\link.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\js\source_editor.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\langs\en.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\langs\en_dlg.js" />
+    <Content Include="JS\tiny_mce\themes\advanced\link.htm" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\content.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\dialog.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\img\buttons.png" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\img\items.gif" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\img\menu_arrow.gif" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\img\menu_check.gif" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\img\progress.gif" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\img\tabs.gif" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\default\ui.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\content.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\dialog.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\img\button_bg.png" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\img\button_bg_black.png" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\img\button_bg_silver.png" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\ui.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\ui_black.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\skins\o2k7\ui_silver.css" />
+    <Content Include="JS\tiny_mce\themes\advanced\source_editor.htm" />
+    <Content Include="JS\tiny_mce\themes\simple\editor_template.js" />
+    <Content Include="JS\tiny_mce\themes\simple\editor_template_src.js" />
+    <Content Include="JS\tiny_mce\themes\simple\img\icons.gif" />
+    <Content Include="JS\tiny_mce\themes\simple\langs\en.js" />
+    <Content Include="JS\tiny_mce\themes\simple\skins\default\content.css" />
+    <Content Include="JS\tiny_mce\themes\simple\skins\default\ui.css" />
+    <Content Include="JS\tiny_mce\themes\simple\skins\o2k7\content.css" />
+    <Content Include="JS\tiny_mce\themes\simple\skins\o2k7\img\button_bg.png" />
+    <Content Include="JS\tiny_mce\themes\simple\skins\o2k7\ui.css" />
+    <Content Include="JS\tiny_mce\tiny_mce.js" />
+    <Content Include="JS\tiny_mce\tiny_mce_popup.js" />
+    <Content Include="JS\tiny_mce\tiny_mce_src.js" />
+    <Content Include="JS\tiny_mce\utils\editable_selects.js" />
+    <Content Include="JS\tiny_mce\utils\form_utils.js" />
+    <Content Include="JS\tiny_mce\utils\mctabs.js" />
+    <Content Include="JS\tiny_mce\utils\validate.js" />
+    <Content Include="Scripts\bootstrap-combobox.js" />
+    <Content Include="Scripts\bootstrap-toggle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Custom_CheckboxButtonBootstrap.js" />
+    <Content Include="Scripts\DataTables\css\dataTables.bootstrap.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.bootstrap4.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.foundation.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.foundation.min.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.jqueryui.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.semanticui.css" />
+    <Content Include="Scripts\DataTables\css\dataTables.semanticui.min.css" />
+    <Content Include="Scripts\DataTables\css\jquery.dataTables.css" />
+    <Content Include="Scripts\DataTables\css\jquery.dataTables.min.css" />
+    <Content Include="Scripts\DataTables\images\sort_asc.png" />
+    <Content Include="Scripts\DataTables\images\sort_asc_disabled.png" />
+    <Content Include="Scripts\DataTables\images\sort_both.png" />
+    <Content Include="Scripts\DataTables\images\sort_desc.png" />
+    <Content Include="Scripts\DataTables\images\sort_desc_disabled.png" />
+    <Content Include="Scripts\DataTables\js\dataTables.bootstrap.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.foundation.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.foundation.min.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.jqueryui.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.semanticui.js" />
+    <Content Include="Scripts\DataTables\js\dataTables.semanticui.min.js" />
+    <Content Include="Scripts\DataTables\js\jquery.dataTables.js" />
+    <Content Include="Scripts\DataTables\js\jquery.dataTables.min.js" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_LayoutPageForAdmin.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminHome\Home.cshtml" />
+    <Content Include="Areas\Admin\Views\UserDetails\UserDetails.cshtml" />
+    <Content Include="Areas\Admin\Views\UserDetails\UserDetailsEdit.cshtml" />
+    <Content Include="Areas\Admin\Views\Task\CreateTaskDetails.cshtml" />
+    <Content Include="Areas\Admin\Views\Task\ViewTaskDetails.cshtml" />
+    <Content Include="Areas\Admin\Views\Task\TaskDetailsEdit.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\ViewAll.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Project\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Project\ViewAll.cshtml" />
+    <Content Include="Areas\Admin\Views\Project\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\UserDetail\UserDetails.cshtml" />
+    <Content Include="Areas\Admin\Views\UserDetail\UserDetailsEdit.cshtml" />
+    <Content Include="Grid.mvc.readme" />
+    <Content Include="Areas\Admin\Views\AdminHome\Issues.cshtml" />
+    <Content Include="Areas\Admin\Views\FinalComment\FinalCDetailsEdit.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Scripts\gridmvc.js" />
+    <Content Include="Scripts\gridmvc.lang.ru.js" />
+    <Content Include="Scripts\gridmvc.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\jquery-ui-timepicker.js" />
+    <Content Include="Scripts\jquery.Jcrop.js" />
+    <Content Include="Scripts\jquery.SimpleCropper.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\Signature-pad.js" />
+    <Content Include="Scripts\signature.js" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\Shared\Error.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminHomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\FinalCommentController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProjectController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserDetailController.cs" />
+    <Compile Include="Controllers\MyIssuesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\TaskController.cs" />
+    <Compile Include="Areas\ViewModels\uduser.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CommonDataController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Identity\ApplicationDbContext.cs" />
+    <Compile Include="Identity\ApplicationManagercs.cs" />
+    <Compile Include="Identity\ApplicationUser.cs" />
+    <Compile Include="Identity\ApplicationUserStore.cs" />
+    <Compile Include="Migrations\202005131601089_Initial.cs" />
+    <Compile Include="Migrations\202005131601089_Initial.Designer.cs">
+      <DependentUpon>202005131601089_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006060722595_userid.cs" />
+    <Compile Include="Migrations\202006060722595_userid.Designer.cs">
+      <DependentUpon>202006060722595_userid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006060750582_birthdate_datetime.cs" />
+    <Compile Include="Migrations\202006060750582_birthdate_datetime.Designer.cs">
+      <DependentUpon>202006060750582_birthdate_datetime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006090534426_UserList.cs" />
+    <Compile Include="Migrations\202006090534426_UserList.Designer.cs">
+      <DependentUpon>202006090534426_UserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\changepassword.cs" />
+    <Compile Include="Models\ReportingDbContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportingMigrations\202005151618228_Initial.cs" />
+    <Compile Include="ReportingMigrations\202005151618228_Initial.Designer.cs">
+      <DependentUpon>202005151618228_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202005181312299_Initial1.cs" />
+    <Compile Include="ReportingMigrations\202005181312299_Initial1.Designer.cs">
+      <DependentUpon>202005181312299_Initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202005191325059_TestList.cs" />
+    <Compile Include="ReportingMigrations\202005191325059_TestList.Designer.cs">
+      <DependentUpon>202005191325059_TestList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202005291514140_list.cs" />
+    <Compile Include="ReportingMigrations\202005291514140_list.Designer.cs">
+      <DependentUpon>202005291514140_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202005291630350_project-name.cs" />
+    <Compile Include="ReportingMigrations\202005291630350_project-name.Designer.cs">
+      <DependentUpon>202005291630350_project-name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202005311812595_fclist.cs" />
+    <Compile Include="ReportingMigrations\202005311812595_fclist.Designer.cs">
+      <DependentUpon>202005311812595_fclist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202006041355541_Project_Image.cs" />
+    <Compile Include="ReportingMigrations\202006041355541_Project_Image.Designer.cs">
+      <DependentUpon>202006041355541_Project_Image.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202006051618107_Required_Image.cs" />
+    <Compile Include="ReportingMigrations\202006051618107_Required_Image.Designer.cs">
+      <DependentUpon>202006051618107_Required_Image.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202006060640453_image_not_mandatory.cs" />
+    <Compile Include="ReportingMigrations\202006060640453_image_not_mandatory.Designer.cs">
+      <DependentUpon>202006060640453_image_not_mandatory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202006091448280_new.cs" />
+    <Compile Include="ReportingMigrations\202006091448280_new.Designer.cs">
+      <DependentUpon>202006091448280_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202006111534222_UseAndAdminrame.cs" />
+    <Compile Include="ReportingMigrations\202006111534222_UseAndAdminrame.Designer.cs">
+      <DependentUpon>202006111534222_UseAndAdminrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\202006121326055_UsernameFinalComment.cs" />
+    <Compile Include="ReportingMigrations\202006121326055_UsernameFinalComment.Designer.cs">
+      <DependentUpon>202006121326055_UsernameFinalComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportingMigrations\Configuration.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Areas\ViewModels\Category.cs" />
+    <Compile Include="ViewModel\FinalComments.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="Areas\ViewModels\Project.cs" />
+    <Compile Include="ViewModel\Registration.cs" />
+    <Compile Include="ViewModel\Task.cs" />
+    <Compile Include="ViewModel\TaskDone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\font-awesome-4.7.0\css\ui-lightness\images\Thumbs.db" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutPageGeneral.cshtml" />
+    <Content Include="Views\Account\RegistrationPage.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Myprofile.cshtml" />
+    <Content Include="Views\MyIssues\Issues.cshtml" />
+    <Content Include="Views\Account\changepassword.cshtml" />
+    <Content Include="Views\Shared\_GridPager.cshtml" />
+    <Content Include="Views\Shared\_Grid.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Content\media\" />
+    <Folder Include="Content\UploadImage\" />
+    <Folder Include="JS\tiny_mce\plugins\autosave\images\" />
+    <Folder Include="JS\tiny_mce\plugins\spellchecker\classes\utils\" />
+    <Folder Include="JS\tiny_mce\plugins\spellchecker\includes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202005131601089_Initial.resx">
+      <DependentUpon>202005131601089_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006060722595_userid.resx">
+      <DependentUpon>202006060722595_userid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006060750582_birthdate_datetime.resx">
+      <DependentUpon>202006060750582_birthdate_datetime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006090534426_UserList.resx">
+      <DependentUpon>202006090534426_UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202005151618228_Initial.resx">
+      <DependentUpon>202005151618228_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202005181312299_Initial1.resx">
+      <DependentUpon>202005181312299_Initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202005191325059_TestList.resx">
+      <DependentUpon>202005191325059_TestList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202005291514140_list.resx">
+      <DependentUpon>202005291514140_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202005291630350_project-name.resx">
+      <DependentUpon>202005291630350_project-name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202005311812595_fclist.resx">
+      <DependentUpon>202005311812595_fclist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202006041355541_Project_Image.resx">
+      <DependentUpon>202006041355541_Project_Image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202006051618107_Required_Image.resx">
+      <DependentUpon>202006051618107_Required_Image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202006060640453_image_not_mandatory.resx">
+      <DependentUpon>202006060640453_image_not_mandatory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202006091448280_new.resx">
+      <DependentUpon>202006091448280_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202006111534222_UseAndAdminrame.resx">
+      <DependentUpon>202006111534222_UseAndAdminrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportingMigrations\202006121326055_UsernameFinalComment.resx">
+      <DependentUpon>202006121326055_UsernameFinalComment.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>33474</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:33474/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/favicon.png" rel="icon">
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui.css" rel="stylesheet" />
+    <link href="~/fonts/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-toggle.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/CSS/AdminPTW.min.css" />
+    <link rel="stylesheet" href="~/CSS/_all-skins.min.css" />
+    <link rel="stylesheet" href="~/CSS/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/JS/jquery.dataTables.min.js"></script>
+    <script src="~/JS/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/JS/adminlte.min.js"></script>
+    <script src="~/Scripts/bootstrap-toggle.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+            .navbar a {
+                float: left;
+                padding: 12px;
+                color: white;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .navbar a:hover {
+                    background-color: #090909;
+                }
+
+            .navbar .active {
+                background-color: #ffd800;
+                color: white;
+            }
+        .field-validation-error, .validation-summary-errors {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+
+    @if (User.Identity.IsAuthenticated == false)
+    {
+        <div class="text-success" style="text-align-last:right;font-style:oblique; font-size:medium; padding-right:100px; padding-top:5px">
+            Welcome @User.Identity.Name
+            
+        </div>
+
+        <div class="navbar">
+            <a class="select-mode" href="/home/Index"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a class="select-mode" href="/home/Index"><i class="fa fa-fw fa-registered"></i> Register</a>
+            <a class ="select-mode" href="/home/Index"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a class="select-mode" href="/home/Index"><i class="fa fa-fw fa-user"></i> Login</a>
+
+        </div>
+    }
+    @if (User.Identity.IsAuthenticated == true)
+    {
+        <div class="text-success" style="text-align-last:right;font-style:oblique; font-size:medium; padding-right:100px; padding-top:5px">
+            Welcome @User.Identity.Name<br />
+            <p style="text-align-last:right;" class="text-danger">Admin</p>
+        </div>
+
+        <div class="navbar">
+            <a href="~/Admin/AdminHome/Home"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="~/Admin/UserDetail/UserDetails"><i class="fa fa-fw fa-envelope"></i> User Details</a>
+            <a href="~/Admin/Task/ViewTaskDetails"><i class="fa fa-fw fa-tasks"></i>All Tasks</a>
+            <a href="~/Admin/Category/ViewAll"><i class="fa fa-fw fa-object-group"></i> Categories</a>
+            <a href="~/Admin/AdminHome/Issues"><i class="fa fa-fw fa-inbox"></i> Issues</a>
+            <a href="~/Account/Myprofile"><i class="fa fa-fw fa-user-secret"></i> My Profile</a>
+            <a href="~/Admin/Project/ViewAll"><i class="fa fa-fw fa-product-hunt"></i> Project</a>
+            <a href="/Account/Logout"><i class="fa fa-fw fa-user"></i> Logout</a>
+        </div>
+    }
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+    @if(IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts",required:true)
+    }
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    $('.navbar a').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+</script>

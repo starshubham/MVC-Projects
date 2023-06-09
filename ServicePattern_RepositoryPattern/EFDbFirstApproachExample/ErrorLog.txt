@@ -7,3 +7,8 @@ Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.Ent
 Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
 Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
 Message:The underlying provider failed on Open. Type:System.Data.Entity.Core.EntityException, Source:EntityFramework
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The controller for path '/Admin/Shared/AdminLayoutPage1' was not found or does not implement IController. Type:System.Web.HttpException, Source:System.Web.Mvc

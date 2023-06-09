@@ -1,0 +1,116 @@
+﻿@model Reporting_Assistant_New.Areas.ViewModels.uduser
+@{
+    ViewBag.Title = "UserDetailsEdit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageForAdmin.cshtml";
+}
+
+<h2>UserDetailsEdit</h2>
+<style>
+    #DateOfBirth {
+        width: 4000px;
+        height: 40px;
+        border: solid;
+        border-color: lightgray;
+    }
+</style>
+<script src="~/JS/MyHeader.js"></script>
+<form action="~/Admin/UserDetail/UserDetailsEdit" method="post" enctype="multipart/form-data">
+@*@using (Html.BeginForm("UserDetailsEdit", "UserDetail", new { area = "Admin" }, FormMethod.Post, new { encrypt = "multipart/form-data" }))
+{*@ 
+    @Html.AntiForgeryToken()
+
+    <div class="form-row">
+        @Html.Raw(TempData["Message"])
+        @Html.HiddenFor(m => m.userid)
+        <div class="row">
+            <div class="form-group col-md-12 col-sm-12 col-md-12">
+                <div class="row">
+                    <div class="form-group col-md-4 col-sm-4 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Username)
+                            @Html.TextBoxFor(m => m.Username, new { placeholder = "Username", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Username)
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.DateOfBirth)<br />
+                            @*@Html.TextBoxFor(m => m.DateOfBirth, "{0:d}", new { placeholder = "Please type Date Of Birth In a form of dd/mm/yyyy", @class = "form-control" })*@
+                            @Html.EditorFor(m => m.DateOfBirth, "{0:d}", new { id = "DateOfBirth", placeholder = "Please type Date Of Birth In a form of dd/mm/yyyy", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.DateOfBirth)
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Email)
+                            @Html.TextBoxFor(m => m.Email, new { placeholder = "Email", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Mobile)
+                            @Html.TextBoxFor(m => m.Mobile, new { placeholder = "Enter Mobile Number", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Mobile)
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Address)
+                            @Html.TextBoxFor(m => m.Address, new { placeholder = "Enter Full Address", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Address)
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.City)
+                            @Html.TextBoxFor(m => m.City, new { placeholder = "City", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.City)
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Country)
+                            @Html.TextBoxFor(m => m.Country, new { placeholder = "Country", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Country)
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4 col-sm-4 col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Signature Image</label>
+                            @if (Model.BaseImg != "")
+                            {
+                                <br />
+                                
+                                 <img style="max-height:100px; max-width:100px; padding-left:10px" src="@Url.Content(@Model.BaseImg)" alt="">
+                                <br />
+                            }
+                            <br />
+                            <label for="image">Image</label>
+                            <input type="file" class="form-control-file" id="image" name="BaseImg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @Html.ValidationSummary()
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 col-sm-12 col-md-12">
+                <button type="submit" class="btn btn-success">Submit</button>
+                <a href="ViewAll" class="btn btn-danger">Cancel</a>
+            </div>
+        </div>
+    </div>                     @*}*@
+</form>
+
+
+
+
+
+
+

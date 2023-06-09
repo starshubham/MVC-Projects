@@ -1,0 +1,73 @@
+﻿@model Reporting_Assistant_New.ViewModel.Task
+
+@{
+    ViewBag.Title = "Edit Task Details(s)";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageForAdmin.cshtml";
+}
+
+<script src="~/JS/MyHeader.js"></script>
+<style>
+    #DOT {
+        width: 4000px;
+        height: 40px;
+        border: solid;
+        border-color: lightgray;
+    }
+
+</style>
+@*@using (Html.BeginForm("UserDetailsEdit", "UserDetails", new { area = "Administrator" }, FormMethod.Post, new { encrypt = "multipart/form-data" }))*@
+<form action="/TaskDetails/TaskDetailsEdit" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="form-row">
+
+        <div class="form-group col-md-4">
+            @Html.Label("User Name")
+            @*@Html.TextBoxFor(m => m.UserId, new { placeholder = "Username", @class = "form-control" })*@
+            @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.user_data, "Value", "Text"), "---select---", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.UserId)
+        </div>
+        <div class="form-group col-md-4">
+            @Html.Label("Date Of Task")<br />
+            @Html.EditorFor(m => m.DOT, "{0:d}", new { id = "DOT", placeholder = "Date Of Start", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.DOT)
+        </div>
+        <div class="form-group col-md-4">
+            @Html.Label("Project Name")
+            @Html.DropDownListFor(m => m.ProjectId, new SelectList(ViewBag.pr_data, "Value", "Text"), "---select---", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ProjectId)
+        </div>
+
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.Screen)
+            @Html.TextBoxFor(m => m.Screen, new { placeholder = "Enter Screen", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Screen) 
+        </div>
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.Description)
+            @Html.TextBoxFor(m => m.Description, new { placeholder = "Enter Description", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Description)
+        </div>
+
+        @*<div class="form-group col-md-4">
+            @Html.LabelFor(m => m.ImageAttached)
+            @Html.TextBoxFor(m => m.ImageAttached, new { placeholder = "Country", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Country)*@
+        @*</div>*@
+        <div class="form-group">
+            <label for="image">Image</label>
+            <input type="file" class="form-control-file" id="image" name="ImageAttached" />
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+
+        @Html.ValidationSummary()
+    </div>
+
+</form>
+
+
+
+
+
+
+

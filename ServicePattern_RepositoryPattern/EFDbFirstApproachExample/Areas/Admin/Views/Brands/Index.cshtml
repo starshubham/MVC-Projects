@@ -1,21 +1,35 @@
-﻿@model List<Company.DomainModels.Brand>
-
-@{
+﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
 }
 
 <h2>Brands</h2>
-<table class="table">
+<button type="button" id="btnGetBrands" class="btn btn-primary">Get Brands</button>
+<table class="table brandsTable">
     <tr>
         <th>Brand ID</th>
         <th>Brand Name</th>
     </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.BrandID</td>
-            <td>@item.BrandName</td>
-        </tr>
-    }
+
 </table>
+
+
+<script>
+    $("#btnGetBrands").click(() => {
+        $.ajax({
+            type: "GET",
+            url: "/api/Brands",
+            success: (response) => {
+                for (var i = 0; i < response.length; i++) {
+                    var br = response[i];
+                    var str = "<tr><td>" + (i + 1) + "</td><td>" + br.BrandName + "</td></tr>";
+                    $(".brandsTable").append(str);
+                }
+            },
+            error: (err) => {
+                alert(err);
+                console.log(err);
+            }
+        });
+    });
+</script>

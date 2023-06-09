@@ -1,0 +1,95 @@
+﻿@model List<Reporting_Assistant_New.Areas.ViewModels.uduser>
+@{
+    ViewBag.Title = "UserDetails";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageForAdmin.cshtml";
+}
+
+<style>
+    .dataTables-example{
+        border-color:blue;
+    }
+</style>
+<script src="~/JS/MyHeader.js"></script>
+@using (Html.BeginForm("UserDetails", "UserDetail", new { area = "Admin" }, FormMethod.Post, new { encrypt = "multipart/form-data" }))
+{
+    <div id="constrain">
+        <div class="container-fluid">
+            <div class="row">
+                @Html.Raw(TempData["Message"])
+
+                <div class="col-md-12">
+                    <div class="white-box">
+                        <div class="form-group">
+                        </div>
+                        <h3 class="box">User Details</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th>Images</th>
+                                        <th>User Name</th>
+                                        <th>Email</th>
+                                        <th>Mobile Number</th>
+                                        <th>Date Of Birth</th>
+                                        <th>Address</th>
+                                        <th>Operations</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var o in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <img style="max-height:100px; max-width:100px; padding-left:10px" src="@Url.Content(@o.BaseImg)" alt="">
+                                            </td>
+                                            @*<td><input type="checkbox" name="ids" id="ids" value="@o.Email" /> </td>*@
+                                            <td>@(o.Username == null ? "" : o.Username)</td>
+                                            <td>@(o.Email == null ? "" : o.Email)</td>
+                                            <td class="custom-th">@(o.Mobile == null ? "" : o.Mobile)</td>
+                                            <td>@(o.DateOfBirth == null ? "" : o.DateOfBirth.Value.ToShortDateString())</td>
+                                            <td>@(o.Address == null ? "" : o.Address)</td>
+                                            @*<td class="custom-th">
+                                                    @{if (o.isActive == true)
+                                                    {
+                                                        <span style="color:green">Active</span>
+                                                    }
+                                                    else if (o.isActive == false)
+                                                    {
+                                                        <span style="color:red">In-Active</span>
+                                                    }
+                                                    }
+                                                </td>*@
+                                            <td>
+                                            <a class="btn btn-info" href="~/Admin/UserDetail/UserDetailsEdit?ids=@o.userid">Edit</a>
+                                                <span id="confirmDeleteSpan_@o.userid" style="display:none">
+                                                    <span>Are You sure you want to delete?</span>
+                                                    <button type="submit" class="btn btn-danger"> Yes </button>
+                                                    <button type="#" class="btn btn-primary" onclick="confirmDelete('@o.userid', false)"> No </button>
+                                                </span>
+                                                <span id="deletespan_@o.userid">
+                                                    <a href="#" class="btn btn-danger" onclick="confirmDelete('@o.userid', true)"> Delete </a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+
+                            </table>
+                            @Html.ValidationSummary()
+                            @Html.Raw(TempData["Message"])
+                            @section  Scripts{
+                                <script src="~/JS/DeleteScript.js"></script>
+                            }
+                            <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@Html.ValidationSummary()
+@Html.Raw(TempData["Message"])
+

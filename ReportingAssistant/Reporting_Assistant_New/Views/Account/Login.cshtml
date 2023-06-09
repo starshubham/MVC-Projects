@@ -1,0 +1,30 @@
+﻿@model Reporting_Assistant_New.ViewModel.LoginViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutPageGeneral.cshtml";
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div class="container-fluid" draggable="false">
+        <div class="form-row" style="width:300px;padding-left:50px">
+            <div class="form-group col-md-12">
+                @Html.LabelFor(m => m.username)
+                @Html.TextBoxFor(m => m.username, new { placeholder = "Username", @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.username)
+            </div>
+
+            <div class="form-group col-md-12">
+                @Html.LabelFor(m => m.password)
+                @Html.TextBoxFor(m => m.password, new { placeholder = "Enter Password", @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.password)
+            </div>
+
+            <button type="submit" class="btn btn-success" style="margin-left:20px">Submit</button>
+            @Html.ValidationSummary()
+
+        </div>
+    </div>
+}
+

@@ -234,3 +234,9 @@ C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePatte
 C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\Company.RepositoryContracts.pdb
 C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\Company.RepositoryLayer.pdb
 C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\Company.RepositoryLayer.dll.config
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\System.Net.Http.Formatting.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\System.Web.Http.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\System.Web.Http.WebHost.dll
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\System.Net.Http.Formatting.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\System.Web.Http.xml
+C:\Users\shubham.seth\Desktop\MVC Tutorial\starshubham\MVC-Projects\ServicePattern_RepositoryPattern\EFDbFirstApproachExample\bin\System.Web.Http.WebHost.xml

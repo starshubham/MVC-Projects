@@ -1,0 +1,36 @@
+﻿
+@model Reporting_Assistant_New.Identity.ApplicationUser
+
+@{
+    ViewBag.Title = "SingleProfilePartialView";
+    Layout = "~/Views/Shared/_LayoutPageGeneral.cshtml";
+}
+
+<h2>My Profile</h2>
+
+<table class="table-bordered col-lg-12 col-sm-12 col-md-12" >
+    <tr>
+        <th>UserName</th>
+        <td>@Model.UserName</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>DOB:</th>
+        <td>@Model.Birthday.Value.ToShortDateString()</td>
+    </tr>
+    <tr>
+        <th>Mobile</th>
+        <td>@Model.PhoneNumber</td>
+    </tr>
+    <tr>
+        <th>City</th>
+        <td>@Model.city</td>
+    <tr>
+        <th>Country</th>
+        <td>@Model.country</td>
+    </tr>
+</table>
+<a href="/home/home" class="btn btn-info" >Back</a>      <a href="/Account/changepassword?ids=@Model.UserName" class="btn btn-danger">Change Password</a>

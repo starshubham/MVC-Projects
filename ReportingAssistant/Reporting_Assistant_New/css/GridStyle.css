@@ -1,0 +1,49 @@
+﻿
+
+.gridStyle{padding: 0px !important;margin:0px !important;font-family: 'Electrolize', sans-serif;font-size:13px;}
+
+
+    .EmpInFty{
+        background-color:lightgreen;
+       border-radius:5px;
+       color:black
+    }
+    .totalVisistorDay{
+        background-color:#d1ea6d;
+       border-radius:5px;
+       color:black;
+      
+        
+    }
+    .totalVisistorInside{
+        background-color:pink;
+       border-radius:5px;
+       color:black
+    }
+    .SchrduledVisiter{
+        background-color:skyblue;
+       border-radius:5px;
+       color:black
+    }
+     .BoxDecimalNo-style{
+        display: inline-flexbox;color:black;min-width: 1em;border:1px solid black;border-radius: 100%;padding : 10px 15px;background-color:yellow;vertical-align: middle;justify-content: center;align-items: center;
+    }
+     .BoxDecimalNo-style:before{
+        content:'';float: left;width: auto;
+    }
+
+
+    .EmpInFty:hover,.totalVisistorDay:hover,.totalVisistorInside:hover,.SchrduledVisiter:hover{
+        background-color:lightcoral;
+    }
+
+
+    tbody tr:nth-child(odd) {
+        background-color: #F8B3C6;
+        color: #000;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #ccff99;
+        color: #000;
+    }

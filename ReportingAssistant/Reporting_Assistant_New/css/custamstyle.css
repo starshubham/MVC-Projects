@@ -1,0 +1,56 @@
+﻿.paddind-top20 {
+    padding-top: 20px;
+}
+.margin-bottom{
+    margin-bottom:10px
+}
+.page-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.notification {
+    font-size: 24px;
+}
+.notificationsmall {
+    font-size: 18px;
+}
+.logo-image {
+    display: block;
+    padding: 0px 15px !important;
+    background-color: #fff;
+}
+.logo-image > img {
+    width: 100%;
+}
+.table-responsive {
+    overflow-y: initial;
+}
+input[type="checkbox"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table>thead>tr>th {
+    font-weight: 600;
+}
+.box-title {
+    color: #7ace4c;
+}
+.book-thumbnail{
+    max-width:173px;
+    width:100%;
+    min-height: 259px;
+}
+.sm-book-thumbnail {
+    max-width: 50px;
+    width: 100%;
+    min-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

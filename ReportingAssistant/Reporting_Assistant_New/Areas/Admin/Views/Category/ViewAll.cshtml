@@ -1,0 +1,56 @@
+﻿@model List<Reporting_Assistant_New.Areas.ViewModels.Category>
+@{
+    ViewBag.Title = "ViewAll";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPageForAdmin.cshtml";
+}
+
+<h2>ViewAll</h2>
+<table class="table-bordered col-lg-12 col-sm-12 col-md-12">
+    <tr>
+        <th>Category Id</th>
+        <th>Category Name</th>
+        <th>Operation</th>
+    </tr>
+    @if(Model!=null)
+    { 
+ foreach (var item in Model)
+{
+    <tr>
+        <td>@item.CategoryId</td>
+        <td>@item.CategoryName</td>
+
+        <td>
+            @*<button type="submit" class="btn btn-warning" onclick="back()"> Back </button>
+                <button type="submit" class="btn btn-warning" onclick="create()"> Create </button>
+                <button type="submit" class="btn btn-warning" onclick="edit(@item.CategoryId)"> Edit </button>*@
+            <a href="~/Areas/AdminHome/home" class="btn btn-warning">Back</a>
+
+            <a href="~/Admin/Category/Edit?ids=@item.CategoryId" class="btn btn-primary">Edit</a>
+            <span id="confirmDeleteSpan_@item.CategoryId" style="display:none">
+                <span>Are You sure you want to delete?</span>
+                <button type="submit" class="btn btn-danger"> Yes </button>
+                <button type="#" class="btn btn-primary" onclick="confirmDelete('@item.CategoryId', false)"> No </button>
+            </span>
+            <span id="deletespan_@item.CategoryId">
+                <a href="#" class="btn btn-danger" onclick="confirmDelete('@item.CategoryId', true)"> Delete </a>
+            </span>
+        </td>
+    </tr>
+}
+}
+else
+    {
+        
+    }
+    
+</table>
+<a href="~/Admin/Category/Create" class="btn btn-success">Create</a>
+<script>
+    
+</script>
+@Html.ValidationSummary()
+@Html.Raw(TempData["Message"])
+@section  Scripts{
+<script src="~/JS/DeleteScript.js"></script>
+}
+@Html.ValidationSummary()

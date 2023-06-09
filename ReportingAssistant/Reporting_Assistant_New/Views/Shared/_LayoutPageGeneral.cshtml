@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+       width: 100%;
+       background-color: #555;
+       overflow: auto;
+        }
+        .navbar a {
+            float: left;
+            border-right: 1px solid gray;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+.navbar a:hover {
+  background-color: black;
+}
+.selected {
+            background-color: gold;
+        }
+            
+
+.field-validation-error, .validation-summary-errors {
+  color: red;
+  }
+      
+    </style>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+
+<body>
+
+    
+    @if (User.Identity.IsAuthenticated == false )
+    {
+    <div class="navbar">
+       
+            <a class="" href="/home/Index"> Home</a>
+            <a href="/Account/RegistrationPage">@*<i class="fa fa-fw fa-registered"></i>*@ Register</a>
+            <a href="/home/Index"> Contact</a>
+            <a href="/Account/Login"> Login</a>
+
+    </div>
+       
+    }
+    @if (User.Identity.IsAuthenticated == true && User.IsInRole("User"))
+   
+    {
+        <div class="text-success" style="text-align-last:right;font-style:oblique; font-size:medium; padding-right:100px; padding-top:5px">
+            Welcome @User.Identity.Name <br>
+            <h4  style="padding-right:20px;" class="text-primary">User</h4>
+        </div>
+
+        <div class="navbar">
+            <a href="/home/Index"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="/MyIssues/Issues"><i class="fa fa-fw fa-inbox"></i> My Issues</a>
+            <a href="/Account/Myprofile"><i class="fa fa-fw fa-user-secret"></i> My Profile</a>
+            @*<a href="/Account/changepassword"><i class="fa fa-fw fa-chain"></i> Change Password</a>*@
+            <a href="/Account/Logout"><i class="fa fa-fw fa-user"></i> Logout</a>
+            
+        </div>
+    }
+
+    
+    @if (User.Identity.IsAuthenticated == true && User.IsInRole("Admin"))
+    {
+       <div class="text-success" style="text-align-last:right;font-style:oblique; font-size:medium; padding-right:100px; padding-top:5px">
+            Welcome @User.Identity.Name
+        </div>
+
+        <div class="navbar">
+            <a href="~/Admin/AdminHome/Home"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="~/Admin/UserDetail/UserDetails"><i class="fa fa-fw fa-envelope"></i> User Details</a>
+            <a href="~/Admin/Task/ViewTaskDetails"><i class="fa fa-fw fa-tasks"></i>All Tasks</a>
+            <a href="~/Admin/Category/ViewAll"><i class="fa fa-fw fa-object-group"></i> Categories</a>
+            <a href="~/Admin/AdminHome/Issues"><i class="fa fa-fw fa-inbox"></i> Issues</a>
+            <a href="~/Account/Myprofile"><i class="fa fa-fw fa-user-secret"></i> My Profile</a>
+            <a href="~/Admin/Project/ViewAll"><i class="fa fa-fw fa-product-hunt"></i> Project</a>
+            <a href="/Account/Logout"><i class="fa fa-fw fa-user"></i> Logout</a>
+        </div>
+    }
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a').click(function () {
+           // $('a').removeClass("selected");
+            //alert("jjj");
+            $(this).addClass("selected");
+            //$('a').click(function(){
+            //    $('a').css("background-color","");
+            //    $(this).css("background-color","black");
+            //})
+
+        });
+    });
+</script>
+
