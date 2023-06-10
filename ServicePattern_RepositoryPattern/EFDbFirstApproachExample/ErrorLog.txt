@@ -12,3 +12,17 @@ Message:The trust relationship between this workstation and the primary domain f
 Message:The trust relationship between this workstation and the primary domain failed.
  Type:System.SystemException, Source:mscorlib
 Message:The controller for path '/Admin/Shared/AdminLayoutPage1' was not found or does not implement IController. Type:System.Web.HttpException, Source:System.Web.Mvc
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib
+Message:The trust relationship between this workstation and the primary domain failed.
+ Type:System.SystemException, Source:mscorlib

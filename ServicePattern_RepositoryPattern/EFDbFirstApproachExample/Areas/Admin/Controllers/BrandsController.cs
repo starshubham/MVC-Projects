@@ -9,7 +9,7 @@ using Company.DataLayer;
 
 namespace EFDbFirstApproachExample.Areas.Admin.Controllers
 {
-    [AdminAuthorizaton]
+    //[AdminAuthorizaton]
     public class BrandsController : Controller
     {
         // GET: Admin/Brands/Index
